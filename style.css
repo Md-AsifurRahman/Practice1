@@ -1,0 +1,64 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+h3{
+    color: darkgreen;
+}
+h4{
+    color: #ce3bc2;
+}
+#dream{
+    color: blueviolet;
+}
+.div-half{
+   width:50%;
+   padding-left: 5%;
+}
+.div-half img{
+    width: 80%;
+
+}
+.link-batton{
+    text-decoration: none;
+    background-image:linear-gradient(darkgrey,rgba(255, 187, 0, 0.842));
+    padding: 5px 10px;
+    font-weight: 700;
+    border-radius: 5%;
+    
+}
+section{
+    display: flex;
+    margin: 5px;
+}
+.backgrond-top{
+    background-image:url(image/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0%;
+}
+.backgrond-middle{
+    background-image:url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0%;
+}
+.backgrond-end{
+    background-image:url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 0%;
+}
+
+.interest{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5%;
+    padding: 20px;
+    border-left: 5px solid;
+    border-color:dimgrey;
+}
+footer{
+    text-align: center;
+    font-weight: 900;
+}
